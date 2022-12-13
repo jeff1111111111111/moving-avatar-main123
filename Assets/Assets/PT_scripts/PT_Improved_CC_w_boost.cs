@@ -69,7 +69,7 @@ public class PT_Improved_CC_w_boost : MonoBehaviour
 
         _velocity.x /= 1 + Drag.x * Time.deltaTime;
         _velocity.y /= 1 + Drag.y * Time.deltaTime;
-        _velocity.z /= 1 + Drag.z * Time.deltaTime;
+       // _velocity.z /= 1 + Drag.z * Time.deltaTime;
 
         _controller.Move(_velocity * Time.deltaTime);
     }
