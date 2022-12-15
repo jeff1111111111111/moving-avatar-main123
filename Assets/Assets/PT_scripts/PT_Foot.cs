@@ -8,7 +8,6 @@ public class PT_Foot : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        Debug.Log("Grounded");
         isGrounded = true;
     }
 
